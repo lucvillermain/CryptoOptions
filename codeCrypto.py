@@ -28,7 +28,7 @@ st.sidebar.markdown(
 st.sidebar.header('Input Parameters')
 
 
-asset = st.sidebar.selectbox("Select Asset", ["BTC", "ETH", "SOL"])
+asset = st.sidebar.selectbox("Select Crypto-Asset", ["BTC", "ETH", "SOL"])
 
 
 if asset == "BTC":
